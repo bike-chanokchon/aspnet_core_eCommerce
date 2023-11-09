@@ -5,6 +5,8 @@ namespace eTicket.Data.Enums
         Action,
         Comedy,
         Drama,
-        Documentary
+        Documentary,
+        Cartoon,
+        Horror
     }
 }
