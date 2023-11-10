@@ -17,7 +17,7 @@ namespace eTicket.Controllers
         public async Task<ViewResult> Index()
         {
             var producers = await this.context.Producers.ToListAsync();
-            return View(producers);
+            return View("index", producers);
         }
     }
 }
